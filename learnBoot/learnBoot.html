@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="../BootStrap3/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../BootStrap3/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        .loginCol {
+            padding: 40px;
+            padding-top: 30px;
+        }
+
+        .titleText {
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="margin-top: 150px;">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 well loginCol">
+                <form action="SqlIndex.html" method="POST" role="form">
+                    <legend class="titleText">数据库管理系统</legend>
+                    <div class="form-group">
+                        <label for="">用户名</label>
+                        <input type="text" class="form-control" id="" placeholder="请输入用户名">
+                    </div>
+                    <div class="form-group">
+                        <label for="">密码</label>
+                        <input type="password" class="form-control" id="" placeholder="请输入密码">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">登录</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

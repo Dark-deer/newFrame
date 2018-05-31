@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<friends>  
+<friend>  
+        <name>小明</name>  
+        <age>24</age>  
+</friend>  
+<friend>  
+        <name>小强</name>  
+        <age>25</age>  
+</friend>  
+<friend>  
+        <name>小芳</name>  
+        <age>18</age>  
+</friend>  
+</friends>

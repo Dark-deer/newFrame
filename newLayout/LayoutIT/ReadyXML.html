@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>读取xml文件</title>
+    <script type="text/javascript">  
+        var reader = new FileReader();
+        reader.onload = function (event) {
+            // event.target.result就是文件文本内容
+            // 然后你就可以为所欲为了
+            // 例如如果是JSON数据可以解析
+            // 如果是HTML数据，可以直接插入到页面中
+            // 甚至字幕文件，各种滤镜，自定义文件格式，都可以玩弄于鼓掌之间……
+        };
+        reader.readAsText(file);
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
