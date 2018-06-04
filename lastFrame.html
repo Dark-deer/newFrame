@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12">
-                <div class="row-fluid">
+                <div class="row-fluid" style="border: 1px solid #000" v-for="item in items" :key="item.id">
                     <div class="span6">
                         {{content}}
                     </div>
