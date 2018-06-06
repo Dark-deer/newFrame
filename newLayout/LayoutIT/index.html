@@ -119,11 +119,11 @@
                 <span class="drag label">
                   <i class="icon-move"></i>拖动</span>
                 <div class="preview">
-                  <input value="12" type="text">
+                  <input value="12格" type="text">
                 </div>
                 <div class="view">
                   <div class="row-fluid clearfix">
-                    <div class="span12 column"></div>
+                    <div class="col-xs-12 column"></div>
                   </div>
                 </div>
               </div>
@@ -133,12 +133,11 @@
                 <span class="drag label">
                   <i class="icon-move"></i>拖动</span>
                 <div class="preview">
-                  <input value="6 6" type="text">
+                  <input value="10格" type="text">
                 </div>
                 <div class="view">
                   <div class="row-fluid clearfix">
-                    <div class="span6 column"></div>
-                    <div class="span6 column"></div>
+                    <div class="col-xs-10 col-offset-xs-2 column"></div>
                   </div>
                 </div>
               </div>
@@ -165,8 +164,8 @@
                   <input value="瀑布流循环6" type="text">
                 </div>
                 <div class="view">
-                  <div class="row clearfix">
-                    <div class="col-xs-6 column" v-for="item in items" :key="item.id">{{content}}</div>
+                  <div class="row-fluid clearfix">
+                    <div class="col-xs-6 column" v-for="item in items" :key="item.id"></div>
                   </div>
                 </div>
               </div>
